@@ -234,7 +234,9 @@ FROM tb_emp
 WHERE emp_nm = '김회장'
 ;
 
-
+-- 없는 사람 이름으로 조회를 하면 null이 아니라 empty return
+-- NVL은 null을 존재안함으로 바꾸는것이고 empty는 바꾸지 않는다
+-- MAX(empty)를 하면 null이 뜨고, 존재안함이 뜨게된다
 SELECT 
     NVL(MAX(emp_nm), '존재안함') AS emp_nm
 FROM tb_emp
