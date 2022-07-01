@@ -57,7 +57,7 @@ INSERT INTO schedule VALUES (seq_schedule.nextval, 'Food', 'Grocery', '22/07/05 
 COMMIT;
 
 INSERT INTO trash VALUES (seq_schedule.nextval, 'Food', 'Grocery', '22/07/05 16:30', '하나로 마트', '감자, 고구마, 커피, 물, 라면');
-
+COMMIT;
 
 
 
