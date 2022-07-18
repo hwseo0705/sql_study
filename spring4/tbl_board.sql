@@ -11,4 +11,4 @@ CREATE TABLE tbl_board (
     CONSTRAINT pk_tbl_board PRIMARY KEY (board_no)
 );
 
-SELECT * FROM tbl_board;
+SELECT * FROM tbl_board ORDER BY board_no DESC;
