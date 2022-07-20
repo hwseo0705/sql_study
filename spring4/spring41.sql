@@ -1,0 +1,4 @@
+SELECT ROWNUM, tbl_board.*
+FROM tbl_board
+WHERE ROWNUM BETWEEN 1 AND 10
+;
